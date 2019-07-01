@@ -29,7 +29,7 @@ SharePath = $path_share
 Last_Write_Time = Get-Item $path_share| foreach {$_.LastWriteTime} 
 Right_User = [string]$Right_for_users -replace '\r*\n', '' 
 }
-####сюда
+
 
 Clear-Variable -Name Right_for_users
 } 
